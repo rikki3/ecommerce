@@ -10,11 +10,11 @@ const products = [
         colors: [
             {
                 code: "Almost",
-                img: "./img/skateboard.png"
+                img: "./img/skating/skateboard.png"
             },
             {
                 code: "Element",
-                img: "./img/skateboard.png"
+                img: "./img/skating/skateboard.png"
             },
         ],
     },
@@ -26,11 +26,11 @@ const products = [
         colors: [
             {
                 code: "Blank",
-                img: "./img/decks.webp"
+                img: "./img/skating/decks.webp"
             },
             {
                 code: "Gripped",
-                img: "./img/decks.webp"
+                img: "./img/skating/decks.webp"
             },
         ],
     },
@@ -42,7 +42,7 @@ const products = [
         colors: [
             {
                 code: "White",
-                img: "./img/wheels.webp"
+                img: "./img/skating/wheels.webp"
             }],
     },
     {
@@ -52,7 +52,7 @@ const products = [
         colors: [
             {
                 code: "Steel",
-                img: "./img/trucks.png"
+                img: "./img/skating/trucks.png"
             }],
         price: 700,
     },
@@ -63,7 +63,7 @@ const products = [
         colors: [
             {
                 code: "ABEC 5",
-                img: "./img/bearings.webp"
+                img: "./img/skating/bearings.webp"
             }],
         price: 200,
     },

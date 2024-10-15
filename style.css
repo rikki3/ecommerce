@@ -95,6 +95,7 @@ nav {
 }   
 
 .sliderImg {
+    margin-top: 2.5%;
     z-index: 1;
 }
 
@@ -285,7 +286,7 @@ label {
 
 .productImg {
     top: 50%;
-    margin-top: 60px;
+    margin-top: 80px;
     width: 50%;
 }
 
@@ -347,4 +348,22 @@ label {
 .productBtn:hover {
     background-color: white;
     color: black;
+}
+
+.gallery {
+    margin-top: 50%;
+    display: flex;
+    padding: 50px;
+}
+
+.galleryItem {
+    color: black;
+    z-index: 1;
+    width: 33%;
+    padding: 50px;
+}
+
+.galleryImg {
+    z-index: 1;
+    width: 100%;
 }

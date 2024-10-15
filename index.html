@@ -15,7 +15,7 @@
             <div class="navItem">
                 <div class="search">
                     <input type="text" placeholder="Search . . ." class="searchInput">
-                    <img src="./img/search.png" width="34" height="34" class="searchIcon"></img>
+                    <img src="./img/icons/search.png" width="34" height="34" class="searchIcon"></img>
                 </div>
             </div>
             <div class="navItem">
@@ -33,7 +33,7 @@
     <div class="slider">
         <div class="sliderWrapper">
             <div class="sliderItem">
-                <img src="./img/skateboard.png" alt="" class="sliderImg" width="450" height="450" />
+                <img src="./img/skating/skateboard.png" alt="" class="sliderImg" width="450" height="450" />
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">COMPLETE</h1>
                 <!-- <h2 class="sliderPrice">R2500</h2> -->
@@ -42,7 +42,7 @@
                  </a>
             </div>          
             <div class="sliderItem">
-                <img src="./img/decks.webp" alt="" class="sliderImg" width="300" height="300" />
+                <img src="./img/skating/decks.webp" alt="" class="sliderImg" width="300" height="300" />
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">DECK</h1>
                 <!-- <h2 class="sliderPrice">R1000</h2> -->
@@ -51,7 +51,7 @@
                  </a>
             </div>
             <div class="sliderItem">
-                <img src="./img/wheels.webp" alt="" class="sliderImg" width="300" height="300" />
+                <img src="./img/skating/wheels.webp" alt="" class="sliderImg" width="300" height="300" />
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">WHEELS</h1>
                 <!-- <h2 class="sliderPrice">R500</h2> -->
@@ -60,7 +60,7 @@
                  </a>
             </div>  
             <div class="sliderItem">
-                <img src="./img/trucks.png" alt="" class="sliderImg" width="300" height="300" />
+                <img src="./img/skating/trucks.png" alt="" class="sliderImg" width="300" height="300" />
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">TRUCKS</h1>
                 <!-- <h2 class="sliderPrice">R700</h2> -->
@@ -69,7 +69,7 @@
                  </a>
             </div>
             <div class="sliderItem">
-                <img src="./img/bearings.webp" alt="" class="sliderImg" width="300" height="300" />
+                <img src="./img/skating/bearings.webp" alt="" class="sliderImg" width="300" height="300" />
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">BEARINGS</h1>
                 <!-- <h2 class="sliderPrice">R200</h2> -->
@@ -101,13 +101,12 @@
             <span class="featuredDesc">Keep in touch via email and support system.</span> 
         </div>
     </div>
-    <div class="product" id="product">
-        <img src="./img/decks.webp" alt="" class="productImg"/>
-        <div class="productDetails">
-            <h1 class="productTitle">RIKIMARU'S DECK</h1>
+    <div class="product">
+        <img src="./img/skating/decks.webp" alt="" class="productImg"/>
+        <div class="productDetails" id="product">
+            <h1 class="productTitle">DECK</h1>
             <h2 class="productPrice">R1000</h2>
-            <p class="productDesc">NDSJFNJKDSN FNJKDSNFK NDFJKNSKFJD NFJKDSNDFSKNFDJKSNFJKNDSKFNKN FNDSJKNFJKD NSDJKFN SKDJKFNDSK FKJDS KFD SKN  FK SK DKF JKSN K
-            </p>
+            <p class="productDesc">A fresh deck with that fresh pop!</p>
             <div class="colors">
                 <div class="color"></div>
                 <div class="color"></div>
@@ -117,9 +116,10 @@
                 <div class="size">7.75</div>
                 <div class="size">8</div>
             </div><br/><br/><br/>
-            <button class="productBtn">BUY NOW!</button>
+            <a href="#payment"><button class="productBtn">BUY NOW!</button></a>
         </div>
-        <div class="payment" id="payment">
+        <div class="payment">
+            <div id="payment"></div>
             <h1 class="payTitle">Billing Information:</h1>
             <label>Name & Surname</label>
             <input type="text" placeholder="John Doe" class="payInput"/>
@@ -142,6 +142,20 @@
             </div>
             <a href="#payment"><button class="payButton" >Checkout</button></a>
             <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">MILL STREET BRIDGE PARK!</h1>
+            <img src="./img/skating/millstreetbridge.jpg" alt="" class="galleryImg"/>
+        </div>
+        <div class="galleryItem">
+            <img src="./img/skating/theshred.jpg" alt="" class="galleryImg"/>
+            <h1 class="galleryTitle">THE SHRED!</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">BATTERY PARK!</h1>
+            <img src="./img/skating/battery.jpg" alt="" class="galleryImg"/>
         </div>
     </div>
     <script src="./app.js"></script>
