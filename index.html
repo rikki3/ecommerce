@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skate Shop Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body style="background-color: black; color:white;">
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+                <span class="navTitle">Skate Shop</span>
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search . . ." class="searchInput">
+                    <img src="./img/icons/search.png" width="34" height="34" class="searchIcon"></img>
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">COMPLETES</h3>
+            <h3 class="menuItem">DECKS</h3>
+            <h3 class="menuItem">WHEELS</h3>
+            <h3 class="menuItem">TRUCKS</h3>
+            <h3 class="menuItem">BEARINGS</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/skating/skateboard.png" alt="" class="sliderImg" width="450" height="450" />
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">COMPLETE</h1>
+                <!-- <h2 class="sliderPrice">R2500</h2> -->
+                 <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                 </a>
+            </div>          
+            <div class="sliderItem">
+                <img src="./img/skating/decks.webp" alt="" class="sliderImg" width="300" height="300" />
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">DECK</h1>
+                <!-- <h2 class="sliderPrice">R1000</h2> -->
+                 <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                 </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/skating/wheels.webp" alt="" class="sliderImg" width="300" height="300" />
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">WHEELS</h1>
+                <!-- <h2 class="sliderPrice">R500</h2> -->
+                 <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                 </a>
+            </div>  
+            <div class="sliderItem">
+                <img src="./img/skating/trucks.png" alt="" class="sliderImg" width="300" height="300" />
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">TRUCKS</h1>
+                <!-- <h2 class="sliderPrice">R700</h2> -->
+                 <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                 </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/skating/bearings.webp" alt="" class="sliderImg" width="300" height="300" />
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BEARINGS</h1>
+                <!-- <h2 class="sliderPrice">R200</h2> -->
+                 <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                 </a>
+            </div>    
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+        <img src="./img/icons/shipping.png" alt="" class="featureImg"/>
+        <span class="featureTitle">FREE SHIPPING</span>
+        <span class="featuredDescription">Free shipping on all orders.</span> 
+        </div>
+        <div class="feature">
+            <img src="./img/icons/return.png" alt="" class="featureImg"/>
+            <span class="featureTitle">30 DAY RETURN</span>
+            <span class="featuredDescription">No question return and easy refund in 14 days.</span> 
+        </div>
+        <div class="feature">
+            <img src="./img/icons/gift.png" alt="" class="featureImg"/>
+            <span class="featureTitle">COUPON CARDS</span>
+            <span class="featuredDescription">Buy coupon cards and use coupon codes up to 100% easily.</span> 
+        </div>
+        <div class="feature">
+            <img src="./img/icons/contact.png" alt="" class="featureImg"/>
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featuredDesc">Keep in touch via email and support system.</span> 
+        </div>
+    </div>
+    <div class="product">
+        <img src="./img/skating/decks.webp" alt="" class="productImg"/>
+        <div class="productDetails" id="product">
+            <h1 class="productTitle">DECK</h1>
+            <h2 class="productPrice">R1000</h2>
+            <p class="productDesc">A fresh deck with that fresh pop!</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div><br/><br/><br/>
+            <div class="sizes">
+                <div class="size">7</div>
+                <div class="size">7.75</div>
+                <div class="size">8</div>
+            </div><br/><br/><br/>
+            <a href="#payment"><button class="productBtn">BUY NOW!</button></a>
+        </div>
+        <div class="payment">
+            <div id="payment"></div>
+            <h1 class="payTitle">Billing Information:</h1>
+            <label>Name & Surname</label>
+            <input type="text" placeholder="John Doe" class="payInput"/>
+            <label>Email</label>
+            <input type="text" placeholder="johndoe@skateshop.com" class="payInput"/>
+            <label>Phone Number</label>
+            <input type="text" placeholder="+27123456789" class="payInput"/>
+            <label>Address</label>
+            <input type="text" placeholder="1 Africa Street, Surburb, Town 1234" class="payInput"/>
+            <h1 class="payTitle">Card Information:</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" alt="" class="cardIcon" width="40" height="20"/>
+                <img src="./img/mastercard.png" alt="" class="cardIcon" width="40" height="20"/>
+            </div>
+            <input type="text" class="payInput" placeholder="Card Number" >
+            <div class="cardInfo">
+                <input type="text" placeholder="MM" class="payInput sm">
+                <input type="text" placeholder="YYYY" class="payInput sm">
+                <input type="text" placeholder="CVV" class="payInput sm">
+            </div>
+            <a href="#payment"><button class="payButton" >Checkout</button></a>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">MILL STREET BRIDGE PARK!</h1>
+            <img src="./img/skating/millstreetbridge.jpg" alt="" class="galleryImg"/>
+        </div>
+        <div class="galleryItem">
+            <img src="./img/skating/theshred.jpg" alt="" class="galleryImg"/>
+            <h1 class="galleryTitle">THE SHRED!</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">BATTERY PARK!</h1>
+            <img src="./img/skating/battery.jpg" alt="" class="galleryImg"/>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
